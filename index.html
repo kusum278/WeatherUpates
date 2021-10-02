@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather App</title>
+  <link rel="icon" href="images/favicon1.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="text-center">
+  <img class="backlines" src="images/back.png" alt="background-lines.png">
+  <main class="form-signin">
+    <form action="/" class="form-signin" method="post">
+      <img class="mb-4" src="images/icon.jpg" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 fw-normal title">Weather Update</h1>
+      <input type="text" id="cityName" class=" top form-control" name="cityName" placeholder="City" required autofocus autocomplete="off">
+      <select class=" bottom form-control" name="unit" placeholder="Unit" required>
+        <option value="" disabled selected>Unit</option>
+        <option value="metric">Celsius</option>
+        <option value="imperial">Fahrenheit</option>
+      </select>
+      <button class="w-100 btn btn-lg btn-primary btns" type="submit">Go</button>
+      <p class="mt-5 mb-3 text-muted">&copy; Kusum Mahajan</p>
+    </form>
+  </main>
+</body>
+</html>
